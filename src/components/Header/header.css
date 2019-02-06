@@ -1,0 +1,23 @@
+:local(.header) {
+    background: #222;
+    border-bottom: 1px solid #000000;
+}
+
+:local(.headOpt) {
+    display: flex;
+}
+
+
+:local(.logo) {
+    flex-grow: 1;
+    padding-top: 8px
+}
+
+
+:local(.logoTxt) {
+    color: #c5c0c0;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    width: 33px;
+}

@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 20px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    flex-grow: 1;
+    padding-top: 8px
+}
+
+.logoTxt {
+    color: #c5c0c0 !important;
+    padding: 5px;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    width: 33px;
+}
+
+.right{
+    flex-grow: 1;
+    color: #848484;
+    font-size: 12px;
+}

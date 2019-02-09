@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import SliderTemplates from  './slider_template';
+import {URL} from '../../../hoc/config';
 
 
 class NewSlider extends Component {
@@ -11,7 +12,7 @@ class NewSlider extends Component {
     }
 
     componentWillMount() {
-        axios.get(`http://localhost:8000/home/notices/${this.props.start}/${this.props.amount}`)
+        axios.get(`${URL}home/texts/${this.props.start}/${this.props.end}`)
             .then(response => {
                 this.setState({
                     news: response.data

@@ -12,8 +12,8 @@ class Routes extends Component {
                     <Route path="/" exact component={Home} />
                 </Switch>
             </Layout>
-                )
-            }
-        } 
-        
+        )
+    }
+}
+
 export default Routes;

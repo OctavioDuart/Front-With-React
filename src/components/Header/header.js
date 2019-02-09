@@ -17,15 +17,13 @@ const Header = (props) => {
                 cursor: 'pointer'
             }}
         />
-    )
+    );
 
     const logo = () => (
         <Link to="/" className={style.logo} >
             <span className={style.logoTxt}>27 Club</span>
         </Link>
-    )
-
-
+    );
     return (
         <header className={style.header}>
             <SideNav {...props} />

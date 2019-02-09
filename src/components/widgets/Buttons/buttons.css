@@ -1,0 +1,16 @@
+.btnGeneric{
+    text-align: center;
+    background: rgb(3, 0, 46);
+    color: #eeeeee;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    font-weight: 500;
+    padding: 9px;
+    font-size: 15px;
+}
+
+
+.btnGeneric:hover{
+    background: rgb(14, 13, 13);
+    color: white;
+    cursor: pointer;
+}

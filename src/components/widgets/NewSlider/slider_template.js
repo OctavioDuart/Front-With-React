@@ -24,7 +24,7 @@ const SliderTemplate = (props) => {
                         <div className="featured_item">
                             <div className="featured_img"
                                 style={{
-                                    background: `url(../images/members/${item.image})` //O caminho esta assim por conta de uma configuração do webpack
+                                    background: `url(../images/members/${item.image})` //O caminho até o arquivo esta alterado por conta de uma configuração do webpack
                                 }}>
                             </div>
                             <Link to={`/articles/${item.id + 1}`}>

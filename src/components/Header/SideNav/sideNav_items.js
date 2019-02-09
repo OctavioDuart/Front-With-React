@@ -11,7 +11,7 @@ const SideNavItems = () => {
             nameClass: 'options',
             icon: 'home',
             text: 'Home',
-            link: 'home'
+            link: '/'
         },
         {
             nameClass: 'options',

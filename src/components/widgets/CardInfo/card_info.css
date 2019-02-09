@@ -1,0 +1,19 @@
+.cardInfo {
+    font-size: 11px;   
+}
+
+.cardInfo i {
+    margin-right: 5px;
+}
+
+.memberName{
+    margin-right: 7px;
+    background-color: gray;
+    color: white;
+    padding: 2px 5px;
+
+}   
+
+.cardInfoDate{
+    color: #2196f3
+}

@@ -66,10 +66,10 @@ class NewsList extends Component {
                         <div key={i}>
                             <div className="newslist_item">
                                 <Link to={`/articles/${item.id}`}>
-                                    <CardInfo 
+                                    <CardInfo
                                         members={this.state.members}
-                                        member= {item.member}
-                                        date  = {item.date}
+                                        member={item.member}
+                                        date={item.date}
                                     />
                                     <h2>{item.title}</h2>
                                 </Link>

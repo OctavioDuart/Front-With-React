@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './buttons.css';
 
 
@@ -10,12 +11,21 @@ const Button = (props) => {
 
     switch (props.type) {
         case 'loadmore':
-            template =(
+            template = (
                 <div className="btnGeneric"
                     onClick={props.action}
                 >
                     {props.txt}
                 </div>
+            )
+            break;
+        case 'linkTo':
+            template = (
+                <Link to={props.linkTo}
+                    className="btnGeneric"
+                >
+                    {props.txt}
+                </Link>
             )
             break;
         default:
